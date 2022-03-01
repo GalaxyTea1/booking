@@ -5,7 +5,7 @@ import us from '../assets/image/us.png';
 
 function Homepage() {
     return (
-        <nav className='flex items-center my-4'>
+        <nav className='flex items-center py-4 z-10 bg-white'>
             <div className='flex items-center mx-4'>
                 <div className=' text-24 font-bold mr-2 cursor-pointer'>GuideTrip</div>
                 <GiWitchFlight size={'36px'} color='#a897f9' className='cursor-pointer' />
